@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thirdFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:text="Instgram"
+            android:fontFamily="@font/pa"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+
+
+            />
+        <ImageView
+
+            android:id="@+id/imgnew"
+            android:src="@drawable/chat"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+
+            android:layout_marginTop="10dp"
+
+
+            />
+    </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec1"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rec2"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
